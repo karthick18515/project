@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page mosaic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Page mosaic</h1>
+
+    </div>
+
+    <div class="container">
+        <div class="bookcontainer">
+            <h3>Listopia</h3>
+            <h5>J.K. Rowling</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus excepturi expedita eaque aut praesentium sapiente debitis doloribus fugiat incidunt molestiae, commodi itaque blanditiis maxime odio laborum a, vel perferendis odit?</p>
+
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+
+    </div>
+
+    <div class="popup"></div>
+
+    <div class="popupbox">
+        <h2>Add Book</h2>
+
+        <form action="">
+            <input type="text" placeholder="book title" id="booktitleinput">
+
+            <input type="text" placeholder="Author" id="bookauthorinput">
+            <textarea placeholder="Description" id="bookdescriptioninput"></textarea>
+
+            <button id="addbook">ADD</button>
+            <button id="cancelpopup">CANCEL</button>
+        </form>
+    </div>
+
+
+    <button class="plus" id="addpopupbutton">+</button>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
